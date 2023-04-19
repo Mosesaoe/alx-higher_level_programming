@@ -1,10 +1,14 @@
 #!/usr/bin/python3
 """
-contains the MyList class
+1-my_list.py
+a class MyList that inherits from list
 """
 
+
 class MyList(list):
-    """A class that inherits from list"""
+    """ Public instance method: def print_sorted(self):
+    that prints the list, but sorted (ascending sort)
+    """
     def print_sorted(self):
-        """prints a sorted list"""
+        """print sorted list"""
         print(sorted(self))
